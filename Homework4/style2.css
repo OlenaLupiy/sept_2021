@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.border{
+    border: 2px solid black;
+}
+.d_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.react_narrow{
+    height: 50px;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: lightyellow;
+}
+.container{
+    width: 300px;
+    margin: 5px auto;
+    }
+
+.middle{
+    display: flex;
+    column-gap: 5px;
+    margin-top: 5px;
+}
+.middle_left{
+    background-color: pink;
+    width: 80px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+.middle_right_box{
+    background-color: deepskyblue;
+    width: 210px;
+    height: 120px;
+    margin-bottom: 5px;
+}

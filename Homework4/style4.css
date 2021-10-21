@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 5px auto;
+    }
+.width{
+    width: 300px;
+}
+.header, .footer{
+    height: 60px;
+    background-color: cornflowerblue;
+}
+.greed_first{
+    height: 50px;
+    background-color: royalblue;
+}
+.greed_second{
+    display: flex;
+}
+.greed_second_1{
+    background-color: deepskyblue;
+    width: 70%;
+    height: 200px;
+}
+.greed_second_2{
+    background-color: navy;
+    width: 30%;
+    height: 200px;
+}

@@ -1,0 +1,32 @@
+*{
+    margin-bottom: 0;
+    padding: 0;
+}
+.container{
+    margin: 5px auto;
+
+}
+.greed_box{
+    background-color: royalblue;
+    height: 130px;
+    width: 115px;
+}
+.bg{
+    background-color: cornflowerblue;
+}
+.header{
+    height: 220px;
+    margin-bottom: 5px;
+}
+.greed{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 7.5px;
+}
+.footer{
+    height: 360px;
+    margin-top: 5px;
+}
+.width{
+    width: 360px;
+}
