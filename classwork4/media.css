@@ -1,0 +1,38 @@
+@media screen and (max-width: 400px){
+    .soc-icon{
+        display: none;
+    }
+    .nav__button{
+        display: flex;
+
+    }
+    .products{
+        padding: 10px;
+    }
+    .products__list{
+        flex-direction: column;
+    }
+    .about_grid{
+        flex-direction: column;
+    }
+    .about_card{
+        width: 100%;
+    }
+    .nav{
+        display: none;
+    }
+    .middle_grid{
+        flex-direction: column;
+        column-gap: 0;
+        padding: 0 10px 10px;
+    }
+    .middle_card{
+        width: 100%;
+        /*padding: 0 10px 10px;*/
+    }
+    .box_wrapper{
+
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 7px;}
+}
