@@ -58,24 +58,31 @@
                 <p class="block__address_text">Невский пр-т, д. 45</p>
             </div>
 
-            <div class="whatsapp d_flex">
+            <div class="about__contact">
                 <div class="wrap d_flex">
                     <div class="whatsapp__photo"><img src="image/whatsapp.png" alt="photo"></div>
                     <p class="whatsapp_text">Напишите нам в WhatsApp</p>
                 </div>
-            </div>
-            <div class="block__phone">
-                <div class="phone"><img src="image/phone.png" alt="phone"></div>
-                <div class="phone__media">+7 383 291 92 86</div>
-                <p class="phone__text">форма обратной связи</p>
-            </div>
 
+                <div class="block__phone">
+                    <div class="phone"><img src="image/phone.png" alt="phone"></div>
+                    <div class="phone__media">+7 383 291 92 86</div>
+                    <p class="phone__text">форма обратной связи</p>
+                </div>
+            </div>
         </div>
         <div class="header__catalog d_flex">
             <button class="catalog__button"><span></span>Каталог</button>
+            <div class="nav__btn_mobile">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <div class="catalog__find d_flex">
                 <div class="catalog__find__block">Поиск по наименованию или артикулу</div>
+                <div class="catalog__find__block_media">Поиск по наименованию...</div>
                 <button class="catalog__find__btn">Найти</button>
+                <button class="catalog__find__btn_media"><img src="image/search%20.png" alt="search"></button>
             </div>
             <div class="catalog__box d_flex">
                 <div class="box_1 d_flex">
@@ -162,7 +169,7 @@
                 </div>
                 <div class="card_right"><img src="image/toyota.png" alt="engine"></div>
             </div>
-            <div class="products_card d_flex">
+            <div class="products_card d_flex ">
                 <div class="card_left">
                     <h3 class="card__left_title">Фильтры</h3>
                     <p class="card__left_text">Масляный фильтр;
@@ -171,7 +178,7 @@
                 </div>
                 <div class="card_right"><img src="image/filter.png" alt="filter"></div>
             </div>
-            <div class="products_card d_flex">
+            <div class="products_card products__card_media d_flex">
                 <div class="card_left">
                     <h3 class="card__left_title">Радиаторы</h3>
                     <p class="card__left_text">Дополнительные
@@ -376,7 +383,7 @@
                 <h3 class="info__box__title2">Вышла новая версия для
                     мобильных приложений</h3>
                 <p class="info_box__text2">Что нового в 2.0:
-                <ul>
+                <ul class="media_ul">
                     <li>— добавлена история поиска;</li>
                     <li>— добавлена синхронизация с сервером;</li>
                     <li>— испрвление ошибок.</li>
@@ -388,7 +395,7 @@
                 <h3 class="info__box__title3">Очередная порция обновлений для
                     мобильных приложений</h3>
                 <p class="info_box__text3">Что нового добавлено:
-                <ol>
+                <ol class="media_ul">
                     <li>— поддержка пуш-уведомлений;</li>
                     <li>— разделы для покупателей;</li>
                     <li>— просмотр покупателя в заказах;</li>
@@ -410,62 +417,61 @@
         </div>
     </div>
 
-    <div class="footer">
+    <div class="footer ">
         <div class="footer__top wrapper">
             <nav class="footer__nav d_flex">
-                <div class="footer__nav_item"><a href="#">КАТАЛОГ</a></div>
-                <div class="footer__nav_item"><a href="#">РУБРИКАТОР</a></div>
-                <div class="footer__nav_item"><a href="#">ИНФОРМАЦИЯ</a></div>
-                <div class="footer__nav_item"><a href="#">КОНТАКТЫ</a></div>
-                <div class="footer__nav_item"><a href="#">АДРЕС</a></div>
-            </nav>
-        </div>
-        <div class="footer__midl d_flex wrapper">
-            <div class="footer__midl__left d_flex ">
-                <div class="footer__box1">
-                    <div class="footer__box1_text"><a href="#">Каталог запчастей</a></div>
-                    <div class="footer__box1_text"><a href="#">Масла</a></div>
-                    <div class="footer__box1_text"><a href="#">Фильтра</a></div>
-                    <div class="footer__box1_text"><a href="#">Радиаторы</a></div>
-                    <div class="footer__box1_text"><a href="#">Sonnax</a></div>
-                    <div class="footer__box1_text"><a href="#">Manual</a></div>
-                    <div class="footer__box1_text"><a href="#">Hовинки</a></div>
-                    <div class="footer__box1_text"><a href="#">Акции</a></div>
-                </div>
-                <div class="footer__box2">
-                    <div class="footer__box1_text"><a href="#">Доставка</a></div>
-                    <div class="footer__box1_text"><a href="#">Оплата</a></div>
-                    <div class="footer__box1_text"><a href="#">Гарантия</a></div>
-                    <div class="footer__box1_text"><a href="#">Новости</a></div>
-                    <div class="footer__box1_text"><a href="#">Журнал</a></div>
-                    <div class="footer__box1_text"><a href="#">О магазине</a></div>
-                    <div class="footer__box1_text"><a href="#">Контактная информация</a></div>
-                </div>
-                <div class="footer__midl_midl">
-                    <div class="footer__midl_wrap">
-                        <div class="footer__box1_text text_width1"><a href="#">Пользовательское соглашение
-                            об использовании персональных данных</a></div>
-                        <div class="footer__box1_text"><a href="#">Политика конфиденциальности</a></div>
-                        <div class="footer__box1_text text_width2"><a href="#">Соглашение на рассылку
-                            рекламных материалов</a></div>
-                        <div class="footer__box1_text"><a href="#">Политика возвратов</a></div>
+                <div class="footer__nav_item item1"><a href="#">КАТАЛОГ</a>
+                    <div class="footer__box1 d_flex">
+                        <div class="footer__box1_text"><a href="#">Каталог запчастей</a></div>
+                        <div class="footer__box1_text"><a href="#">Масла</a></div>
+                        <div class="footer__box1_text"><a href="#">Фильтра</a></div>
+                        <div class="footer__box1_text"><a href="#">Радиаторы</a></div>
+                        <div class="footer__box1_text"><a href="#">Sonnax</a></div>
+                        <div class="footer__box1_text"><a href="#">Manual</a></div>
+                        <div class="footer__box1_text"><a href="#">Hовинки</a></div>
+                        <div class="footer__box1_text"><a href="#">Акции</a></div>
                     </div>
-                    <div class="footer__box1_text"><a href="#">Мы принимаем</a></div>
-                    <div class="footer__box1_text"><a href="#"><img src="image/visa_card.png" alt="visa-card"></a></div>
-
                 </div>
-            </div>
-
-            <div class="footer__midl__right">
-                <div class="footer__contact d_flex">
+                <div class="footer__nav_item item2"><a href="#">РУБРИКАТОР</a>
+                    <div class="footer__box2 d_flex">
+                        <div class="footer__box1_text"><a href="#">Доставка</a></div>
+                        <div class="footer__box1_text"><a href="#">Оплата</a></div>
+                        <div class="footer__box1_text"><a href="#">Гарантия</a></div>
+                        <div class="footer__box1_text"><a href="#">Новости</a></div>
+                        <div class="footer__box1_text"><a href="#">Журнал</a></div>
+                        <div class="footer__box1_text"><a href="#">О магазине</a></div>
+                        <div class="footer__box1_text"><a href="#">Контактная информация</a></div>
+                    </div>
+                </div>
+                <div class="footer__nav_item item3"><a href="#">ИНФОРМАЦИЯ</a>
+                    <div class="footer__midl_midl">
+                        <div class="footer__box3">
+                            <div class="footer__box1_text text_width1"><a href="#">Пользовательское соглашение
+                                об использовании персональных данных</a></div>
+                            <div class="footer__box1_text"><a href="#">Политика конфиденциальности</a></div>
+                            <div class="footer__box1_text text_width2"><a href="#">Соглашение на рассылку
+                                рекламных материалов</a></div>
+                            <div class="footer__box1_text"><a href="#">Политика возвратов</a></div>
+                        </div>
+                        <div class="footer__box1_text"><a href="#">Мы принимаем</a></div>
+                        <div class="footer__box1_text"><a href="#"><img src="image/visa_card.png" alt="visa-card"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__nav_item item4"><a href="#">КОНТАКТЫ</a>
                     <div class="footer__contact__phone">
                         <p class="footer_num_phone">+7 383 291 92 86</p>
                         <p class="footer__mail">info@avt-zap.ru</p>
                     </div>
+
+                </div>
+                <div class="footer__nav_item"><a href="#">АДРЕС</a>
                     <div class="footer_contact__address">г. Новосибирск,
                         ул. Планировочная, 5, офис 105
                     </div>
                 </div>
+            </nav>
+            <div class="footer__midl__right ">
                 <div class="footer__text d_flex">
                     <p class="footer__text_online">Мы онлайн, воспользуйтесь</p>
                     <div class="footer__form"><a href="#">Форма обратной связи</a></div>
@@ -484,8 +490,12 @@
                     <div class="social__sign"><img src="image/google-plus%201.png" alt="google"></div>
                 </div>
             </div>
-
         </div>
+
+
+
+
+
         <div class="footer__bottom wrapper">
             <p class="bottom__text">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
         </div>
