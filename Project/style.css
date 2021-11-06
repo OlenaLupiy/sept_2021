@@ -747,7 +747,7 @@ table {
 .footer {
     background: url("image/bg.png") no-repeat center/cover;
     padding-top: 36px;
-    position: relative;
+    /*position: relative;*/
 }
 .item1{
     margin-right: 134px;
@@ -887,11 +887,6 @@ table {
     font-size: 16px;
     line-height: 20px;
     color: #737E9B;
-}
-.footer__midl__right{
-    position: absolute;
-    top: 130px;
-    right: 63px;
 }
 
 .bottom__text {
