@@ -228,18 +228,20 @@
         font-size: 12px;
         line-height: 14px;
         width: 38px;
-        margin-right: 27px;
+        margin-right: 52px;
     }
 
     .card {
-        width: 250px;
+        width: 290px;
         height: 145px;
         margin: 0;
         column-gap: 10px;
     }
-.card_info_price{
-    align-items: center;
-}
+
+    .card_info_price {
+        align-items: center;
+    }
+
     .card_photo img {
         width: 58px;
     }
@@ -247,104 +249,128 @@
     .card_info_btn {
         width: 32px;
         height: 32px;
-        margin-right: 7px;
-        margin-bottom: 7px;
+
+        margin-bottom: 15px;
     }
 
     .arr1, .arr2 {
         display: none;
     }
-    .card__left_title{
+
+    .card__left_title {
         display: none;
     }
-    .card__left_text{
+
+    .card__left_text {
         font-size: 10px;
         line-height: 14px;
         margin-left: 15px;
         margin-bottom: 15px;
         margin-top: 44px;
     }
-    .card_left_btn{
+
+    .card_left_btn {
         font-size: 12px;
         line-height: 14px;
-        margin-left:15px;
+        margin-left: 15px;
         padding: 5px 12px;
     }
-    .card_right img{
+
+    .card_right img {
         width: 74px;
         margin: 15px 15px 15px 0;
     }
-    .products_card{
-        width: 250px;
+
+    .products_card {
+        width: 290px;
+        border: 1px solid #E1E5F8;
+        border-radius: 6px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
+
     .products__card_media {
         display: none;
     }
-    .block_button{
+
+    .block_button {
 
         column-gap: 0;
         margin-bottom: 9px;
 
 
     }
-    .block_button button{
+
+    .block_button button {
         font-size: 14px;
         line-height: 16px;
-        padding: 10px 20px 10px 10px;
+        padding: 10px 20px 10px 20px;
 
         box-sizing: border-box;
     }
+
+    .block_button {
+        column-gap: 10px;
+        margin-bottom: 9px;
+    }
+
     .btn_products {
-
         height: 36px;
-        margin-right: 10px;
     }
-    .btn_action{
 
+    .btn_action {
         height: 36px;
-        margin-right: 10px;
     }
-.btn_sell{
 
-    height: 36px;
+    .btn_sell {
+        display: none;
+    }
 
-}
-.item__photo img{
-    width: 149px;
-}
-.item__card{
-    width: 50%;
-    margin-bottom: 45px;
-}
-.item__star img{
-    width: 12px;
-}
-    .item__review{
+    .item__photo img {
+        width: 149px;
+    }
+
+    .item__card {
+        width: 50%;
+        margin-bottom: 45px;
+    }
+
+    .item__star img {
+        width: 12px;
+    }
+
+    .item__review {
         font-size: 10px;
         line-height: 12px;
         margin-left: 6px;
     }
+
     .item__text {
         font-size: 12px;
         line-height: 17px;
         margin-bottom: 34px;
     }
-    .item__price{
+
+    .item__price {
         column-gap: 3px;
         margin-bottom: 10px;
     }
-    .item__price_pos{
+
+    .item__price_pos {
         font-size: 12px;
         line-height: 14px;
     }
-    .item__price_impos{
+
+    .item__price_impos {
         font-size: 12px;
         line-height: 14px;
     }
+
     .item__rating {
         font-size: 10px;
         line-height: 12px;
     }
+
     .item__price_pos2 {
         font-size: 14px;
         line-height: 16px;
@@ -354,11 +380,13 @@
         font-size: 10px;
         line-height: 12px;
     }
+
     .item__button {
         column-gap: 11px;
         align-items: center;
     }
-    .item__diagram{
+
+    .item__diagram {
         display: none;
     }
 
@@ -372,6 +400,7 @@
         margin-right: 7px;
         width: 11px;
     }
+
     .sale {
         font-size: 8px;
         line-height: 10px;
@@ -380,6 +409,7 @@
         padding: 3px 6px;
         box-sizing: border-box;
     }
+
     .order {
         font-size: 12px;
         line-height: 14px;
@@ -388,47 +418,57 @@
         margin-top: 0;
         margin-bottom: 50px;
     }
+
     .grid__title {
         font-size: 16px;
         line-height: 19px;
         margin-bottom: 20px;
     }
-    .grid__border{
+
+    .grid__border {
         display: none;
     }
-    .info__box{
+
+    .info__box {
         flex-direction: column;
         row-gap: 22px;
         margin-bottom: 70px;
     }
+
     .info__box__btn {
         font-size: 10px;
         line-height: 12px;
         padding: 2px 8px;
         margin-top: 0;
     }
+
     .info__box__title1, .info__box__title2, .info__box__title3, .info__box__title4 {
         font-size: 14px;
         line-height: 18px;
         margin-bottom: 8px;
         margin-top: 10px;
     }
-    .info__box__title2, .info__box__title3{
+
+    .info__box__title2, .info__box__title3 {
         width: 282px;
     }
+
     .info__box__title1 {
         width: 134px;
     }
+
     .info_box__text1, .info_box__text2, .info_box__text3, .info_box__text4, .media_ul {
         font-size: 12px;
         line-height: 18px;
         margin-right: 0;
     }
-    .info_box__text2 li, .info_box__text3 li{
-    font-size: 12px;
-    line-height: 18px;
-    margin-right: 0;
+
+    .info_box__text2 li, .info_box__text3 li {
+        font-size: 12px;
+        line-height: 18px;
+        margin-right: 0;
     }
+
     .footer__nav {
         flex-direction: column;
         row-gap: 25px;
@@ -439,57 +479,69 @@
         font-size: 14px;
         line-height: 16px;
     }
+
     .footer__box1_text a {
         font-size: 12px;
         line-height: 16px;
     }
-    .footer__box1, .footer__box2, .footer__box3{
+
+    .footer__box1, .footer__box2, .footer__box3 {
         display: flex;
         flex-direction: column;
         row-gap: 10px;
         margin-top: 10px;
     }
-    .footer__box3{
+
+    .footer__box3 {
         margin-bottom: 20px;
     }
-    .footer_num_phone, .footer__mail, .footer_contact__address{
+
+    .footer_num_phone, .footer__mail, .footer_contact__address {
         font-size: 12px;
         line-height: 14px;
     }
-    .footer__text_online, .footer__text_advertise{
+
+    .footer__text_online, .footer__text_advertise {
         font-size: 14px;
         line-height: 16px;
     }
+
     .footer__text {
         flex-direction: column;
         row-gap: 4px;
         margin: 23px 0;
     }
 
-    .bottom__text{
+    .bottom__text {
         font-size: 12px;
         line-height: 14px;
         margin-bottom: 15px;
         margin-top: 15px;
     }
-    .contact__wrap{
+
+    .contact__wrap {
         flex-direction: column;
         row-gap: 25px;
     }
-    .footer__midl__right{
+
+    .footer__midl__right {
         flex-direction: column;
     }
-    .footer__top{
+
+    .footer__top {
         flex-direction: column;
     }
+
     .footer__form a {
         font-size: 13px;
         line-height: 15px;
     }
+
     .footer__text_advertise {
         width: 267px;
         margin-bottom: 8px;
     }
+
     .footer__btn_mail {
         font-size: 12px;
         line-height: 14px;
@@ -505,14 +557,17 @@
     .footer__buttons {
         margin-bottom: 29px;
     }
+
     .social__media {
         column-gap: 40px;
         margin-bottom: 25px;
     }
-    .footer__bottom{
+
+    .footer__bottom {
         margin-bottom: 15px;
-        border-top: 1px solid  #1D3044;
-
+        border-top: 1px solid #1D3044;
     }
-
+.card__mobile{
+    display: none;
+}
 }
